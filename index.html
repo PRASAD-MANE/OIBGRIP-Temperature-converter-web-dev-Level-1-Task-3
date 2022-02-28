@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Temperature Conversion</title>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+              <a href="index.html" class="navbar-brand">Pushpa Raj</a>
+              <div class="navbar-nav">
+                <a href="">Home</a>
+                <a href="">Cast</a>
+                <a href="">Music</a>
+                <a href="">About</a>
+              </div>
+            </div>
+          </nav>
+        <div class="banner">
+            <div class="container">
+                <h1 class="banner-title">
+                    Pushpa Tribute
+                </h1>
+                <!-- <marquee behavior="" direction=""> -->
+                    <p>Everything that you want to know about Pushpa</p>
+                </marquee>
+            </div>
+        </div>
+    </header>
+    
+    <div class="wrapper">
+        <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput= "celToFar()">
+        </div>
+        <div class="container">
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput = "farToCel()">
+        </div>
+        <p style="color:rgb(153, 6, 6);font-size:50px;">
+            Is duniya ne aapke hath mein pistol diya aur mere hath mein Temperature Converter
+        </p>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
